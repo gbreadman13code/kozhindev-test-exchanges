@@ -1,0 +1,112 @@
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.tableItem {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*vertical-align: middle;*/
+    min-width: 100px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+}
+.tableItem img {
+    margin-right: 5px;
+}
+.numberOfString {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    color: #00000045;
+    margin-right: 0px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.tableNameItem {
+    width: 500px;
+    /*margin-right: 10px;*/
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+.tableString {
+    padding: 10px 20px;
+    border-bottom: 0.5px solid #3c3c3c;
+    display: flex;
+    justify-content: space-between;
+}
+.tableString:hover {
+    background-color: #3c3c3c10;
+    cursor: pointer;
+}
+.tableString:last-child {
+    padding: 10px 20px;
+    border-bottom: 1px solid #000000;
+    display: flex;
+    justify-content: space-between;
+}
+.headerString button {
+    cursor: pointer;
+    background-color: white;
+    border: none;
+}
+.headerString {
+    padding: 10px 20px;
+    border-bottom: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+}
+.headerString .tableItem {
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+}
+.headerString .numberOfString {
+    font-weight: 500;
+    font-size: 14px;
+    color: #00000045;
+}
+.headerString .tableNameItem {
+    margin-left: 0;
+}
+.showOrHideButton {
+    font-size: 15px;
+    font-weight: 500;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.showOrHideButton img {
+    height: 20px;
+    margin-right: 10px;
+    /*transform: scale(1, -1);*/
+}
+.refresh {
+    display: flex;
+    align-items: center;
+}
+.refresh span {
+    color: #000000;
+    margin-right: 10px;
+    font-size: 15px;
+}
+.refresh button {
+    display: flex;
+    align-items: center;
+    background-color: #8daae5;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.refresh button img {
+    width: 20px;
+}

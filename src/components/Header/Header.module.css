@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}
+.logo {
+    height: 90px;
+    border-radius: 70px;
+}
+.refresh {
+    display: flex;
+    align-items: center;
+}
+.refresh span {
+    color: #00000090;
+    margin-right: 20px;
+}
+.refresh button {
+    background-color: #ffffff;
+    border: none;
+}
+.refresh button img {
+    width: 40px;
+}

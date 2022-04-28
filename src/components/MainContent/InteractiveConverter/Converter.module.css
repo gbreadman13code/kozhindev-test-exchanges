@@ -1,0 +1,13 @@
+.convertValutesContainer {
+    display: flex;
+    flex-direction: column;
+}
+.convertValuteContainer {
+    margin-bottom: 10px;
+}
+input {
+    margin-right: 10px;
+}
+input, select {
+    padding: 8px 0px 8px 8px;
+}
